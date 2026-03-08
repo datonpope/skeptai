@@ -41,9 +41,10 @@ actions, and what to salvage.
 
 ## Integrate It
 
-\`\`\`python
-# Coming in v0.2 — SDK in active development
-\`\`\`
+SDK coming in v0.2 — currently in active development.
+
+In the meantime, use the playground at [skeptai.app](your-url) 
+or call the CRIT engine directly via the API.
 
 ## Contribute
 
