@@ -153,6 +153,11 @@ and every other domain where AI output quality has high-stakes consequences.
 
 ---
 
+**Can I use my own API key?**
+Yes. Enter your Anthropic API key in the optional field above the input area. This removes the rate limit for your session and uses your own token quota. Your key is used in-session only and is never stored, logged, or transmitted anywhere except directly to the Anthropic API.
+
+---
+
 **What's the roadmap?**
 
 | Version | Status | What's included |
