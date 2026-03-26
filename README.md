@@ -59,11 +59,21 @@ The first modules in development:
 To contribute a domain module, open an issue describing 
 your domain and the specific adversarial lenses it needs.
 
+## What's New — v0.2
+
+- **Bring your own API key** — Paste your Anthropic API 
+  key for unlimited analyses. Session-only, never stored.
+- **Original prompt field** — Provide your original 
+  request for sharper Completeness and Contextual 
+  Fitness scoring.
+  
 ## Roadmap
 
 - [x] CRIT v0.1 — Core four-pass adversarial protocol
-- [x] Playground — Browser-based analysis tool  
-- [ ] CRIT Actions — Automated remediation layer
+- [x] Playground — Browser-based analysis tool
+- [x] CRIT Actions — Automated remediation layer
+- [x] CRIT v0.2 — Optional prompt field + API key support
+- [ ] Browser Extension — Chrome and Firefox
 - [ ] SDK — Python and JavaScript packages
 - [ ] Self-hosted — Run CRIT on your own infrastructure
 - [ ] Domain Modules — Specialized industry configurations
