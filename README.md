@@ -78,6 +78,21 @@ your domain and the specific adversarial lenses it needs.
 - [ ] Self-hosted — Run CRIT on your own infrastructure
 - [ ] Domain Modules — Specialized industry configurations
 
+## Data & Privacy
+
+The SkeptAI playground stores no analyzed output content, no finding
+text, and no user-identifying data.
+
+To power pattern memory, it stores anonymized **structural metadata**
+about the failure categories detected across analyses — categorical
+tags only (failure type, severity, source/critique model, date) plus
+counts. None of it can reconstruct any analyzed output, and only
+Fact-Gate-verified findings contribute to displayed rates.
+
+Rate limiting stores request IP addresses only. Row-level security
+restricts all of the above to backend services; no public read or
+write access exists.
+
 ## Built by
 
 Daton Pope — Risk management professional 
